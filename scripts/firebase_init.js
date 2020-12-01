@@ -1,13 +1,13 @@
 
 var firebaseConfig = {
-    apiKey: "AIzaSyCYxQO10RHIbk4WFiYNkHQawyg109_UGnc",
+    apiKey: "",
     authDomain: "emojo-234d5.firebaseapp.com",
     databaseURL: "https://emojo-234d5.firebaseio.com",
     projectId: "emojo-234d5",
     storageBucket: "emojo-234d5.appspot.com",
-    messagingSenderId: "349560748563",
-    appId: "1:349560748563:web:b4867d93e5e070e0d85de6",
-    measurementId: "G-RTZGNPH9FZ"
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 // Initialize Firebase
