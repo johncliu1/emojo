@@ -8,7 +8,7 @@ export const emojify = functions.https.onRequest((request, response) => {
     cors(request, response, async () => {
 
         functions.logger.debug("the body ", request.body);
-        const url = `https://api.ritekit.com/v1/emoji/suggestions?text=${request.body.text}&client_id=8c9c3bdd0dd47815a8eebef91b9711a042c28c7a2b1d`;
+        const url = `https://api.ritekit.com/v1/emoji/suggestions?text=${request.body.text}&client_id=//"client id"`;
         const res = await fetch(url);
         const json = await res.json();
 
